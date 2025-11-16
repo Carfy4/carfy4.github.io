@@ -83,13 +83,13 @@ const Projects: React.FC<{}> = () => {
         
         <div className="flex-col flex md:flex-row gap-4">
           {/* Project 3 */}
-          <Link
+         <Link
             href="https://www.youtube.com/watch?v=EbSywxu0plw"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:flex-1 transition-all duration-300 hover:translate-x-2"
           >
-            <div className="flex flex-row mb-6 h-full bg-white/5 rounded-xl p-3 border border-white/10 hover:border-white/30">
+            <div className="flex flex-row mb-6 h-full bg-white/5 rounded-xl p-3 border border-white/10 hover:border-white/30 group">
               <div className="flex-shrink-0">
                 <video 
                   width={180}
@@ -100,7 +100,7 @@ const Projects: React.FC<{}> = () => {
                   playsInline
                   className="object-cover rounded-lg"
                 >
-                  <source src="" type="video/mp4" />
+                  <source src="/videos/project1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -111,6 +111,7 @@ const Projects: React.FC<{}> = () => {
                     
                   </p>
                 </div>
+
                 <div className="mt-2 pt-2 border-t border-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-purple-400 text-xs font-medium">View full video →</p>
                 </div>
@@ -119,13 +120,13 @@ const Projects: React.FC<{}> = () => {
           </Link>
           
           {/* Project 4 */}
-          <Link
+         <Link
             href="https://www.youtube.com/watch?v=m9nVIsB1Khs"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:flex-1 transition-all duration-300 hover:translate-x-2"
           >
-            <div className="flex flex-row mb-6 h-full bg-white/5 rounded-xl p-3 border border-white/10 hover:border-white/30">
+            <div className="flex flex-row mb-6 h-full bg-white/5 rounded-xl p-3 border border-white/10 hover:border-white/30 group">
               <div className="flex-shrink-0">
                 <video 
                   width={180}
@@ -136,7 +137,7 @@ const Projects: React.FC<{}> = () => {
                   playsInline
                   className="object-cover rounded-lg"
                 >
-                  <source src="" type="video/mp4" />
+                  <source src="/videos/project1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
