@@ -84,7 +84,7 @@ const Projects: React.FC<{}> = () => {
         <div className="flex-col flex md:flex-row gap-4">
           {/* Project 3 */}
           <Link
-            href=""
+            href="https://www.youtube.com/watch?v=EbSywxu0plw"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:flex-1 transition-all duration-300 hover:translate-x-2"
@@ -106,7 +106,7 @@ const Projects: React.FC<{}> = () => {
               </div>
               <div className="p-3 flex-1 min-h-[140px] flex flex-col justify-between">
                 <div>
-                  <p className="text-white font-bold text-xl mb-2"></p>
+                  <p className="text-white font-bold text-xl mb-2">Voxelized Character</p>
                   <p className="text-gray-300 text-xs leading-relaxed">
                     
                   </p>
@@ -120,7 +120,7 @@ const Projects: React.FC<{}> = () => {
           
           {/* Project 4 */}
           <Link
-            href=""
+            href="https://www.youtube.com/watch?v=m9nVIsB1Khs"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:flex-1 transition-all duration-300 hover:translate-x-2"
@@ -142,7 +142,7 @@ const Projects: React.FC<{}> = () => {
               </div>
               <div className="p-3 flex-1 min-h-[140px] flex flex-col justify-between">
                 <div>
-                  <p className="text-white font-bold text-xl mb-2"></p>
+                  <p className="text-white font-bold text-xl mb-2">ASCII Render</p>
                   <p className="text-gray-300 text-xs leading-relaxed">
                     
                   </p>
@@ -153,6 +153,45 @@ const Projects: React.FC<{}> = () => {
               </div>
             </div>
           </Link>
+        </div>
+         {/* Project 5 */}
+        <div className="flex justify-center">
+          <div className="md:w-1/2">
+            <Link
+              href="https://www.youtube.com/watch?v=0LIdrEc1kfQ"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="z-[1] transition-all duration-300 hover:translate-x-2"
+            >
+              <div className="flex flex-row mb-6 h-full bg-white/5 rounded-xl p-3 border border-white/10 hover:border-white/30">
+                <div className="flex-shrink-0">
+                  <video 
+                    width={180}
+                    height={180}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="object-cover rounded-lg"
+                  >
+                    <source src="/videos/project5.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-3 flex-1 min-h-[140px] flex flex-col justify-between">
+                  <div>
+                    <p className="text-white font-bold text-xl mb-2">Project 5 Title</p>
+                    <p className="text-gray-300 text-xs leading-relaxed">
+                      
+                    </p>
+                  </div>
+                  <div className="mt-2 pt-2 border-t border-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-purple-400 text-xs font-medium">View full video →</p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
