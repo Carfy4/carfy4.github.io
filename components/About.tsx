@@ -15,7 +15,7 @@ const About: React.FC<{}> = () => {
         <p className="text-gray-300 text-center ">
 
           Hey, I&apos;m Carf - a full-stack Roblox programmer with over 3 years of experience in Luau.
-          I&apos;m capable of working on any game genre. I&apos;m available for both short-term commissions and long-term commissions.
+          I&apos;m capable of working on any game genre. I&apos;m available for both short-term and long-term commissions.
         </p>
       </div>
     </section>
