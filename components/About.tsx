@@ -14,8 +14,8 @@ const About: React.FC<{}> = () => {
         </p>
         <p className="text-gray-300 text-center ">
 
-          Hey! I&apos;m a Experienced Programmer with 3+ years of experience that can work in both backend and frontend.
-          I&apos;m comfortable working on both quick tasks and complex long-term projects.
+          Hey, I&apos;m Carf - a full-stack Roblox programmer with over 3 years of experience in Luau.
+          I&apos;m capable of working on any game genre. I&apos;m available for both short-term commissions and long-term commissions.
         </p>
       </div>
     </section>
